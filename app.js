@@ -4,13 +4,13 @@ const fs = require('fs');
 const yargs = require('yargs');
 const _ = require('lodash');
 
-titleOptions = {
+const titleOptions = {
   describe: 'Title of note',
   demand: true,
   alias: 't'
 };
 
-bodyOptions = {
+const bodyOptions = {
   describe: 'Body of note',
   demand: true,
   alias: 'b'
